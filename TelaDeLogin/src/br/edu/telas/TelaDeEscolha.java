@@ -46,16 +46,20 @@ public class TelaDeEscolha extends javax.swing.JFrame {
         });
         getContentPane().add(Sair, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 90, 70));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/icons/TeladeEscolha.jpg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/icons/TeladeEscolha2.jpg"))); // NOI18N
         jLabel2.setText("jLabel2");
         jLabel2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+     private void abrirTelaDeLogin(){
+         this.dispose();
+         TelaDeLogin novaJanela = new TelaDeLogin();
+         novaJanela.setVisible(true);
+    }
     private void SairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SairActionPerformed
-       TelaDeEscolha.this.dispose();
+       abrirTelaDeLogin();
     }//GEN-LAST:event_SairActionPerformed
 
     private void CalcIMCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CalcIMCActionPerformed

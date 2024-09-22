@@ -70,7 +70,7 @@ public class TelaDeLogin extends javax.swing.JFrame {
 
         MostrarSenha.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         MostrarSenha.setForeground(new java.awt.Color(255, 255, 255));
-        MostrarSenha.setText("Vizualizar Senha");
+        MostrarSenha.setText("Visualizar Senha");
         MostrarSenha.setBorder(null);
         MostrarSenha.setContentAreaFilled(false);
         MostrarSenha.addActionListener(new java.awt.event.ActionListener() {
